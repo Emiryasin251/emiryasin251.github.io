@@ -1,0 +1,51 @@
+/* Body etiketini yani tüm sayfayı seçer. */
+body {
+    /* Yazı tipini değiştirir. */
+    font-family: Arial, sans-serif;
+    /* Yazı boyutunu 16px yapar. */
+    font-size: 16px;
+    /* Yazı satır aralığını 150%'ye ayarlar.' */
+    line-height: 150%;
+  }
+  
+  /* .ipucu sınıfını seçer. */ 
+  .ipucu {
+    /* Zemin rengini ayarlar */
+    background-color: #cf54ff;
+    /* İç boşluğu 20px yapar. */
+    padding: 20px;
+  }
+  
+  /* .ipucu içerisindeki span etiketini seçer. */
+  .ipucu > span {
+    /* Ögenin görüntülenme biçimini block olarak ayarlar. */
+    display: block;
+    /* Metni ortalar. */
+    text-align: center;
+    /* Metni koyu yapar. */
+    font-weight: bold;
+    /* Tüm harfleri büyük harfe dönüştürür. */
+    text-transform: uppercase;
+  }
+  
+  /* .ipucu içerisindeki p etiketini seçer. */
+  .ipucu > p {
+    /* Ögenin görüntülenme biçimini none olarak ayarlar ve ögeyi görünmez yapar. */
+    display: none;
+    /* Metin rengini beyaz yapar. */
+    color: #fff;
+    /* Metni iki yana yaslı olarak hizalar. */
+    text-align: justify;
+    /* Paragrafın üstüne 1px kalınlığında beyaz bir kenarlık ekler. */
+    border-top: solid 1px #fff;
+    /* Üst iç boşluğu 20px olarak ayarlar. */
+    padding-top: 20px;
+    /* Dış boşluğu ayarlar: üst sağ alt sol */
+    margin: 20px 0 0 0;
+  }
+  
+  /* :hover durumundayken .ipucunun içindeki p etiketini seçer.  */
+  .ipucu:hover > p {
+    /* Görüntülenme modunu block yapar ve paragrafın görüntülenmesini sağlar. */  
+    display: block;
+  }

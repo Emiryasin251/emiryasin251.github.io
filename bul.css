@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+
+#ask{
+    color: white;
+}
+    
+
+table{
+    font-size: 50px;
+    margin-left: 24%;
+    margin-top: 15%;
+    border-color: rgb(8, 153, 73);
+}

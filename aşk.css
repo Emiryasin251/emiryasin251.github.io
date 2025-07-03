@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+
+#ask{
+    color:rgb(255, 255, 255) ;
+}
+
+#ask a{
+    color: rgb(200, 0, 0);
+}
+
+table{
+    font-size: 50px;
+    margin-left: 14%;
+    margin-top: 15%;
+    border-color: rgb(8, 153, 73);
+}

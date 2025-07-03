@@ -1,6 +1,6 @@
 //document.write(); çıktı verme
 //console.log("Hello world"); konsola çıktı verme
-alert("ŞEVVAL ADAMDIR!!!");
+alert("ŞEVVAL BENİM CANIM AŞKIMMM!!!");
 //console.log(window);
 
 let ilkSayi = prompt("ilk sayıyı giriniz: ");
